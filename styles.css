@@ -1,0 +1,107 @@
+/*AQUI SE QUITARAN LOS MARGENES PREDETERMINADOS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 5%;
+    background: black;
+    color: white;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none ;
+}
+
+nav {
+    display: flex;
+    font-size: 30px;
+    padding: 1cm;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+
+}
+
+li {
+    display: inline;
+    margin: 20px;
+    margin-left: 2cm;
+}
+
+#Logo {
+    width: 1.5cm;
+    border: solid white 1px;
+}
+
+a:hover {
+    border-bottom: red 2px solid ;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+}
+
+#Creepys {
+    width: 10cm;
+    margin-left: 6cm;
+    background: url(./Creepypastas\ comiendo.jpg) no-repeat center/cover;
+    width: 13cm;
+    height: 17cm;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    text-align: center;
+}
+
+
+p {
+    padding: 10px;
+    margin-left:  20px;
+}
+
+article {
+    padding: 20px;
+    background: rgb(47, 46, 46);
+    margin-top: 30px;
+    position: relative;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.Border {
+    border: 2px white solid;
+    width: 80px;
+    background: rgb(47, 46, 46);
+    margin-top: 30px;
+}
+
+#Border  {
+       border: 2px white solid;
+       background: rgb(47, 46, 46) ; 
+       margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background: rgb(31, 28, 31);
+    margin-top: 30px;
+    position: relative;
+}
+
+.Imagen {
+         float: right;   
+         width: 4cm;
+         padding-left: 20px ;
+}
+
